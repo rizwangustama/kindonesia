@@ -1,0 +1,51 @@
+#low {
+    background: #F4F7FD;
+    .container {
+        margin: 0 auto;
+        width: 90%;
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            .l-kiri {
+                img {
+
+                }
+            }
+            .l-kanan {
+                display: flex;
+                align-items: center;
+                .konten {
+                    h1 {
+                        font-size: 24px;
+                        font-weight: bold;
+                        color: #043169;
+                    }
+                    p {
+                        font-size: 22px;
+                        color: #043169;
+                        margin-bottom: 20px;
+                    }
+                    a {
+                        border-radius: 5px;
+                        background: #043169;
+                        padding: 7px 40px;
+                        color: white;
+                        text-decoration: none;
+                    }
+                    .img1 {
+                        position: absolute;
+                        margin-top: -80px;
+                        margin-left: 400px;
+                        display: flex;
+                        justify-content: flex-end;
+                    }
+                    .img2 {
+                        position: absolute;
+                        margin-left: 100px;
+                        margin-top: 70px;
+                    }
+                }
+            }
+        }
+    }
+}

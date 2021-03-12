@@ -1,0 +1,116 @@
+#beranda {
+    @import "../layouts/header";
+
+    .wrap {
+        margin-top: 130px;
+        img {
+            width: 100%;
+        }
+        .container {
+            // position: absolute;
+            width:80%;
+            margin: 0 auto;
+            z-index: 2;
+            .grid {
+                padding-top: 60px;
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                .w-kanan{
+                    h1{
+                        font-size: 45px;
+                        color: #043169;
+                    }
+
+                    h2{
+                        font-size: 45px;
+                        color: #043169;
+                    }
+
+                    h3{
+                        font-size: 33px;
+                        color: #043169;
+                        margin-bottom: 10px;
+                    }
+
+                }
+                .w-kiri{
+                    img {
+                        margin-left: 20px;
+                        width: 466.48px;
+                        display:flex;
+                        left: 0;
+                    }
+                }
+
+            }
+            .w-bawah{
+                form {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin: 20px auto;
+                    input {
+                        width: 517px;
+                        height: 40px;
+                        padding: 0px 0px 0px 45px;
+                        border-radius: 100px;
+                        outline: none;
+                    }
+                    label {
+                        margin-right: -40px;
+                        z-index: 2;
+                    }
+                }
+            }
+            .info {
+                margin: 80px auto;
+                padding: 20px 70px;
+                width: 500px;
+                background: white;
+                display: flex;
+                align-items: center;
+                border-radius: 10px;
+                box-shadow: 0px 3px 6px gray;
+                .info-kiri{
+                    display: flex;
+                    margin-right: 75px;
+
+                    img {
+                        width: 65px;
+                        margin-right: 20px;
+                    }
+                    .konten {
+                        h1 {
+                            font-size: 32px;
+                            font-weight: bold;
+                            color: #043169;
+                        }
+                        p {
+                            font-size:12px;
+                        }
+                    }
+                }
+                .info-kanan {
+                    display: flex;
+
+                    img {
+                        width: 75px;
+                        margin-right: 20px;
+                    }
+                    .konten {
+                        h1 {
+                            font-size: 32px;
+                            font-weight: bold;
+                            color: #043169;
+                        }
+                        p {
+                            font-size: 12px;
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+
+}

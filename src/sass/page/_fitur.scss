@@ -1,0 +1,38 @@
+#fitur {
+    background: #F4F7FD;
+    padding: 100px 0px;
+    
+    .container {
+        margin: 0 auto;
+        width: 80%;
+        h1 {
+            text-align: center;
+            color: #043169;
+            margin-bottom: 50px;
+        }
+        .grid {
+            display: grid;
+            column-gap: 40px;
+            row-gap: 40px;
+            grid-template-columns: 1fr 1fr 1fr;
+            .f-box {
+                border-radius: 10px;
+                box-shadow: 0px 3px 6px gray;
+                background: white;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 30px;
+                .f-conten {
+                    img {
+    
+                    }
+                    h3 {
+                        text-align: center;
+                    }
+    
+                }
+            }
+        } 
+    }
+}

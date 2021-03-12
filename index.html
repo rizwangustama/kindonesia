@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kampus Indonesia</title>
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/swiper-bundle.css" />
+
+    <style>
+
+    .swip {
+        position: relative;
+        height: 100%;
+        width: 600px;
+    }
+
+    .swip {
+        background: white;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: #000;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .swiper-container {
+        padding: 10px;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        border-radius: 10px;
+        box-shadow: 0 3px 6px gray;
+        background: white;
+        border: 1px solid rgb(214, 214, 214);
+    
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+    </style>
+
+</head>
+<body>
+    <section id="beranda">
+        <nav>
+            <div class="container">
+                <div class="kiri">
+                    <ul>
+                        <li><img src="./Asset/Logo-KI.png" alt=""></li>
+                        <li><a href="#">Beranda</a></li>
+                        <li><a href="#">Fitur</a></li>
+                        <li><a href="#">Hubungi Kami</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="kanan">
+                    <ul>
+                        <li><a href="">Masuk</a></li>
+                        <li><a href="">Daftar</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="wrap" style="background: url('./Asset/Bg1.svg'); background-size: cover; background-repeat: no-repeat;">
+            <div class="container">
+                <div class="grid">
+                    <div class="w-kanan">
+                        <h1>Bingung Cari Informasi</h1>
+                        <h2>Seputar Kuliah?</h2>
+                        <h3>Cari Disini Aja !</h3>
+                        <p>Dapatkan informasi seputar dunia perkuliahan Secara</p>
+                        <p>terupdate dari kami melalui aplikasi Kampus Indonesia</p>
+                    </div>
+                    <div class="w-kiri">
+                        <img src="./Asset/bg1icon.svg" alt="">
+                    </div>
+                    
+                </div>
+                <div class="w-bawah">
+                    <form action="">
+                        <label for=""><img src="./Asset/search-24px.svg" alt=""></label>
+                        <input type="text" placeholder="Informasi Seputar Perkuliahan / Cari Kampus">
+                    </form>
+                </div>
+                <div class="info">
+                    <div class="info-kiri">
+                        <img src="./Asset/icon1-university.svg" alt="">
+                        <div class="konten">
+                            <h1>1042</h1>
+                            <p>
+                                Jumlah Kampus yang <br>
+                                Terdata Saat ini
+                            </p>
+                        </div>
+                    </div>
+                    <div class="info-kanan">
+                        <img src="./Asset/icon2-university.svg" alt="">
+                        <div class="konten">
+                            <h1>1022</h1>
+                            <p>
+                                Jumlah Kampus yang <br>
+                                Terdata Saat ini
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="kampus">
+        <div class="container">
+            <div class="grid">
+                <div class="k-kiri">
+                    <div class="k-konten">
+                        <h1>
+                            Website Untuk
+                            mencari Informasi
+                            Seputar Kuliah
+                        </h1>
+                        <p>
+                            Daftatkan Informasi Seputar dunia
+                            perkuliahan secara terupdate dari kami melalui aplikasi kampus Indonesia
+                        </p>
+                        <a href="#">Cari Kampus Lain</a>
+                    </div>
+                </div>
+                <div class="k-kanan">
+                    <div class="k-container">
+                        <div class="konten">
+                            <h1>Rekomendasi Kampus Terbaik</h1>
+                            <p>Lihat kampus Lain</p>
+                        </div>
+                        <div class="wrapp">
+                            <section class="swip">
+                                <!-- Swiper -->
+                                <div class="swiper-container">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <div class="sw-konten">
+                                                <img src="./Asset/ITB.svg" alt="">
+                                                <div class="logo">
+                                                    <img src="./Logo Kampus/ITB.png" alt="">
+                                                    <a href="">Lihat detail</a>
+                                                </div>
+                                                <h2>Institut Teknologi <br> Bandung</h2>
+                                                <a href="">Lihat Detail</a>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="sw-konten">
+                                                <img src="./Asset/ITB.svg" alt="">
+                                                <div class="logo">
+                                                    <img src="./Logo Kampus/ITB.png" alt="">
+                                                    <a href="">Lihat detail</a>
+                                                </div>
+                                                <h2>Institut Teknologi <br> Bandung</h2>
+                                                <a href="">Lihat Detail</a>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="sw-konten">
+                                                <img src="./Asset/ITB.svg" alt="">
+                                                <div class="logo">
+                                                    <img src="./Logo Kampus/ITB.png" alt="">
+                                                    <a href="">Lihat detail</a>
+                                                </div>
+                                                <h2>Institut Teknologi <br> Bandung</h2>
+                                                <a href="">Lihat Detail</a>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">Slide 1</div>
+                                    </div>
+                                    <!-- Add Pagination
+                                    <div class="swiper-pagination"></div> -->
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <Section id="lokasi">
+        <div class="container">
+            <h1>Lokasi Kampus Terpopuler</h1>
+            <div class="grid">
+                <div class="box">
+                    <div class="l-box" style="background: url('./kota/jakarta.jpg'); background-repeat: no-repeat; background-size: cover; border-radius: 10px;"><p>Jakarta</p></div>
+                </div>
+                <div class="box">
+                    <div class="l-box" style="background: url('./kota/Surabaya.jpg'); background-repeat: no-repeat; background-size: cover; border-radius: 10px;"><p>Surabaya</p></div>
+                </div>
+                <div class="box">
+                    <div class="l-box" style="background: url('./kota/jogkarta.jpeg'); background-repeat: no-repeat; background-size: cover; border-radius: 10px;"><p>Yogyakarta</p></div>
+                </div>
+                <div class="box">
+                    <div class="l-box" style="background: url('./kota/bandung.jpg'); background-repeat: no-repeat; background-size: cover; border-radius: 10px;"><p>Bandung</p></div>
+                </div>
+                <div class="box">
+                    <div class="l-box" style="background: url('./kota/medan.jpg'); background-repeat: no-repeat; background-size: cover; border-radius: 10px;"><p>Medan</p></div>
+                </div>
+                <div class="box">
+                    <div class="l-box" style="background: url('./kota/Semarang.jpg'); background-repeat: no-repeat; background-size: cover; border-radius: 10px;"><p>Semarang</p></div>
+                </div>
+                <div class="box">
+                    <div class="l-box" style="background: url('./kota/malang.jpg'); background-repeat: no-repeat; background-size: cover; border-radius: 10px;"><p>Malang</p></div>
+                </div>
+                <div class="box">
+                    <div class="l-box" style="background: url('./kota/Bali.jpg'); background-repeat: no-repeat; background-size: cover; border-radius: 10px;"><p>Bali</p></div>
+                </div>
+            </div>
+        </div>
+    </Section>
+
+    <section id="fitur">
+        <div class="container">
+            <h1>Fitur Yang Tersedia di Kampus Indonesia</h1>
+            <div class="grid">
+                <div class="f-box">
+                    <div class="f-conten">
+                        <img src="./Asset/Kampus.svg" alt="">
+                        <h3>Kampus</h3>
+                    </div>
+                </div>
+                <div class="f-box">
+                    <div class="f-conten">
+                        <img src="./Asset/Beasiwa.svg" alt="">
+                        <h3>Beasiswa</h3>
+                    </div>
+                </div>
+                <div class="f-box">
+                    <div class="f-conten">
+                        <img src="./Asset/Seminar.svg" alt="">
+                        <h3>Seminar</h3>
+                    </div>
+                </div>
+                <div class="f-box">
+                    <div class="f-conten">
+                        <img src="./Asset/Beasiwa.svg" alt="">
+                        <h3>Lomba</h3>
+                    </div>
+                </div>
+                <div class="f-box">
+                    <div class="f-conten">
+                        <img src="./Asset/Seminar.svg" alt="">
+                        <h3>Lowongan</h3>
+                    </div>
+                </div>
+                <div class="f-box">
+                    <div class="f-conten">
+                        <img src="./Asset/Kampus.svg" alt="">
+                        <h3>UTBK</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="low">
+        <div class="container">
+            <div class="grid">
+                <div class="l-kiri">
+                    <img src="./Asset/lowongan.svg" alt="">
+                </div>
+                <div class="l-kanan">
+                    <div class="konten">
+                        <img class="img1" src="./Asset/titik.svg" alt="">
+                        <h1>Apakah Kamu Sedang Mencari Pekerjaan ?</h1>
+                        <p>Temukan Pekerjaan Terbaik Kamu Disini</p>
+                        <a href="">Cari Lowongan</a>
+                        <img class="img2" src="./Asset/titik.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sama">
+        <div class="container">
+            <h1>Bekerja Sama Dengan</h1>
+            <div class="logo">
+                <img src="./Logo Kampus/Telkom.png" alt="">
+                <img src="./Logo Kampus/UGM.jpg" alt="">
+                <img src="./Logo Kampus/UI.png" alt="">
+                <img src="./Logo Kampus/ITB.png" alt="">
+                <img src="./Logo Kampus/ipb.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="grid">
+                <div class="box">
+                    <h1>
+                        Kampus
+                        Indonesia
+                    </h1>
+                    <p>
+                        Kami Merupakan Perusahaan dibidang
+                        Informasi Seputar dunia perkuliahan yang 
+                        memberikan Informasi secara terupdate
+                        dan dapat dipercaya sepenuhnya
+                    </p>
+                    <p>
+                        PT. Inspirasi Mandiri Nusantara <br>
+                        Kec Lokawaru  <br>
+                        Kota Malang, Jawa Timur  <br>
+                        Telepon  <br>
+                        021 3452 2885  <br>
+                        Email  <br>
+                        info@kampusindonesia.id  <br>
+
+                    </p>
+                </div>
+                <div class="box">
+                    <h1>
+                        Perusahaan
+                    </h1>
+                    <ul>
+                        <li><a href="">Tentang Kami</a></li>
+                        <li><a href="">Hubungi Kami</a></li>
+                        <li><a href="">Karir</a></li>
+                        <li><a href="">Feedback</a></li>
+                        <li><a href="">Pathners</a></li>
+                    </ul>
+                </div>
+                <div class="box">
+                    <h1>Fitur</h1>
+                    <ul>
+                        <li><a href="">Cari Kampus / Prodi</a></li>
+                        <li><a href="">Cari Seminar</a></li>
+                        <li><a href="">Cari Beasiswa</a></li>
+                        <li><a href="">Cari Lomba</a></li>
+                        <li><a href="">Cari Lowongan</a></li>
+                        <li><a href="">UTBK</a></li>
+                    </ul>
+                </div>
+                <div class="box">
+                    <h1>Lainnya</h1>
+                    <ul>
+                        <li><a href="">Bantuan</a></li>
+                        <li><a href="">Lainnya</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <h2>&copy; 2020 - Kampus Indonesia</h2>
+    </footer>
+    
+</body>
+<script src="./src/js/swiper-bundle.min.js"></script>
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        slidesPerView: 2,
+        spaceBetween: 30,
+        freeMode: true,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+    });
+
+</script>
+</html>

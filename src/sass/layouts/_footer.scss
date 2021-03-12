@@ -1,0 +1,42 @@
+footer {
+    background: #043169;
+    .container {
+        padding: 50px 0px;
+        color: white;
+        width: 80%;
+        margin: 0 auto;
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            column-gap: 30px;
+            .box {
+                h1 {
+                    font-size: 22px;
+                    font-weight: bold;
+                }
+                p {
+                    font-size: 12px;
+                    margin: 20px 0px;
+                    text-align:justify;
+                }
+                ul {
+                    margin-top: 15px;
+                    li {
+                        a {
+                            color: white;
+                            font-size: 12px;
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+    h2 {
+        text-align: center;
+        color: white;
+        font-size:18px;
+        padding: 20px;
+    }
+    
+}

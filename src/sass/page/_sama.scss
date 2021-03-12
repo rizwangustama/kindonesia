@@ -1,0 +1,19 @@
+#sama {
+    padding: 50px 0px;
+    .container {
+        margin: 0 auto;
+        width: 75%;
+        h1 {
+            text-align: center;
+            padding: 30px 0px;
+            color: #043169;
+        }
+        .logo {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            img{
+                width: 155px;
+            }
+        }
+    }
+}

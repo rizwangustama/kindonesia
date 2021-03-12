@@ -1,0 +1,33 @@
+#lokasi {
+    margin: 100px 0px;
+    .container {
+        width: 80%;
+        margin: 0 auto;
+        h1 {
+            text-align: center;
+            margin: 40px;
+            color: #043169;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 106px 108px;
+            row-gap: 20px;
+            column-gap: 20px;
+            .box {
+                border-radius: 10px;
+                .l-box {
+                    height: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    p {
+                        font-size: 24px;
+                        font-weight: bold;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}

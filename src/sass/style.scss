@@ -1,0 +1,33 @@
+@import "base/font.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+ul {
+    li {
+        list-style: none;
+        a {
+            text-decoration: none;
+        }
+    }
+}
+
+@import "page/beranda.scss";
+@import "page/kampus.scss";
+@import "page/lokasi.scss";
+@import "page/fitur.scss";
+@import "page/low.scss";
+@import "page/sama.scss";
+
+@import "layouts/footer.scss"
+
+
+
+
+
+
+
+
