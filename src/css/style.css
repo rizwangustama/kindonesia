@@ -391,7 +391,7 @@ ul li a {
 }
 
 #info {
-  padding: 50px;
+  padding: 50px 0;
 }
 #info .container {
   width: 80%;
@@ -419,7 +419,8 @@ ul li a {
 #info .container .grid .in-kiri .wrap {
   padding: 10px 25px;
 }
-#info .container .grid .in-kiri .wrap h1 {
+#info .container .grid .in-kiri .wrap h3 {
+  color: #043169;
   font-size: 24px;
   font-weight: bold;
   text-align: left;
@@ -473,6 +474,64 @@ ul li a {
 }
 #info .container .grid .in-kanan .wrapp .swip .swiper-container .swiper-wrapper .swiper-slide .sw-konten .logos ul li p {
   font-size: 16px;
+}
+
+#artikel .container {
+  width: 80%;
+  margin: 0 auto;
+}
+#artikel .container h1 {
+  color: #043169;
+}
+#artikel .container p {
+  color: #043169;
+}
+#artikel .container .grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 400px;
+  column-gap: 30px;
+  margin: 30px 0;
+}
+#artikel .container .grid .box {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  box-shadow: 0px 3px 6px;
+}
+#artikel .container .grid .box .konten .boxu {
+  background: white;
+  overflow: hidden;
+  width: 100px;
+  border-radius: 10px 0px 0px 0px;
+  padding: 7px 10px;
+}
+#artikel .container .grid .box .konten .boxu h1 {
+  color: black;
+  overflow: hidden;
+  font-size: 16px;
+  font-weight: lighter;
+  text-align: center;
+}
+#artikel .container .grid .box .konten .isi {
+  padding: 20px;
+  margin-top: 160px;
+}
+#artikel .container .grid .box .konten .isi a {
+  padding: 5px 30px;
+  background: white;
+  text-decoration: none;
+  color: #043169;
+  border-radius: 100px;
+}
+#artikel .container .grid .box .konten .isi h1 {
+  color: white;
+  font-size: 22px;
+  margin-top: 15px;
+}
+#artikel .container .grid .box .konten .isi p {
+  color: white;
+  font-size: 13px;
 }
 
 #sama {
